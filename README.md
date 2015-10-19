@@ -1,20 +1,16 @@
-# quinngroup.bootstrap.io
+# [Start Bootstrap](http://startbootstrap.com/) - [Modern Business](http://startbootstrap.com/template-overviews/modern-business/)
 
-Landing page for our group website.
-
-## [Start Bootstrap](http://startbootstrap.com/) - [Business Casual](http://startbootstrap.com/template-overviews/business-casual/)
-
-[Business Casual](http://startbootstrap.com/template-overviews/business-casual/) is a multipurpose website theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
+[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.
 
 ## Getting Started
 
-To use this theme, choose one of the following options to get started:
+To use this template, choose one of the following options to get started:
 * Download the latest release on Start Bootstrap
 * Fork this repository on GitHub
 
 ## Bugs and Issues
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/business-casual/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-modern-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/modern-business/).
 
 ## Creator
 
@@ -27,4 +23,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
