@@ -3,280 +3,351 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Quinn Research Group - University of Georgia</title>
+  <title>Quinn Research Group - University of Georgia</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Fontawesome icons -->
+  <link href="css/fontawesome/css/all.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Quinn Research Group</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="nsf-career.html">NSF CAREER</a>
-                    </li>
-                    <li>
-                        <a href="research.html">Research</a>
-                    </li>
-                    <li>
-                        <a href="news.html">News</a>
-                    </li>
-                    <li>
-                        <a href="people.html">People</a>
-                    </li>
-                    <li>
-                        <a href="publications.html">Publications</a>
-                    </li>
-                    <li>
-                        <a href="presentations.html">Presentations</a>
-                    </li>
-                    <li>
-                        <a href="courses.html">Courses</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('images/ciliavideo.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Dynamic texture recognition of ciliary motion</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/ornet_cover2.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Social networks for understanding mitochondrial morphology</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/toxoplasma_cover.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Unsupervised <em>Toxoplasma gondii</em> motility analysis</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/neutrophils_cover.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Exploring neutrophil motion using GANs</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/ornet_cover.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Spatiotemporal changes in actin in response to listeria</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/spatial.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Flu and asthma incidence rates</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-
-    <!-- Page Content -->
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
+      <a class="navbar-brand" href="index.html">Quinn Research Group</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="nsf-career.html">NSF CAREER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/the-quarks">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Podcast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="presentations.html">Presentations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
+          </li>
+      -->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Data Science for public good.
-                </h1>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-camera"></i> Big Imaging</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Big data, computer vision, statistical machine learning, and other higher-order terms.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-heartbeat"></i> Public Health</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Translational medicine, bioimaging, and disease surveillance and prediction.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-code-fork"></i> Open Science</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Active contributors to open source projects. Code, data, and course materials posted to GitHub.</p>
-                    </div>
-                </div>
-            </div>
+  <header>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('images/carousel/ciliavideo.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Ciliary motion analysis</h3>
+            <p>Dynamic texture recognition of ciliary motion</p>
+          </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Portfolio Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Selected Projects</h2>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#brain">
-                    <img class="img-responsive img-portfolio img-hover" src="images/bigneuron.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#draenor">
-                    <img class="img-responsive img-portfolio img-hover" src="images/draenor.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#cilia">
-                    <img class="img-responsive img-portfolio img-hover" src="images/cilia.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#odor">
-                    <img class="img-responsive img-portfolio img-hover" src="images/odor.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#orbit">
-                    <img class="img-responsive img-portfolio img-hover" src="images/orbit.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="research.html#ornet">
-                    <img class="img-responsive img-portfolio img-hover" src="images/ornet.png" style="border: 1px solid #000;" alt="">
-                </a>
-            </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/carousel/ornet_cover.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Organellar Networks</h3>
+            <p>Social networks for understanding mitochondrial morphology</p>
+          </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Features Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Group Openings</h2>
-            </div>
-            <div class="col-md-6">
-                <p>We are an interdisciplinary group, primarily focused on how data science can be a tool for knowledge discovery in public health applications.</p>
-
-                <p><strong style="font-size: 18px;">Due to a combination of logistical, financial, and research commitments, I am NOT able to recruit students for Fall 2020 or Spring 2021.</strong> I sincerely apologize--there are always more interested and qualified students than I can effectively mentor at one time, and accepting more students would be a disservice to everyone.</p>
-
-                <p>When recruiting resumes, we are looking for students with backgrounds and interests in:</p>
-
-                <!--<p><strong>I am always looking for highly motivated undergraduate and graduate students</strong> with strong backgrounds in:</p>-->
-                <ul>
-                    <li>statistical machine learning</li>
-                    <li>computer vision</li>
-                    <li>deep learning</li>
-                    <li>generative models</li>
-                    <li>spectral graph analytics</li>
-                    <li>distributed computing</li>
-                    <li>cellular biology</li>
-                    <li>disease modeling</li>
-                    <li>open source coding</li>
-                </ul>
-
-                <p>If you are interested in pursuing interdisciplinary research in my group, <a href="https://magsol.github.io/blog/2017/03/16/so-you-want-to-conduct-research-with-me/" target="_blank">please read this blog post and follow its instructions for contacting me</a>.</p>
-
-            </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="images/opensource.png" alt="">
-            </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/carousel/spatial.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #000;">Spatiotemporal modeling</h3>
+            <p style="color: #000;">Predicting flu and asthma incidence rates</p>
+          </div>
         </div>
-        <!-- /.row -->
 
-        <hr>
+        <!-- Slide Four -->
+        <div class="carousel-item" style="background-image: url('images/carousel/toxoplasma.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><em>Toxoplasma gondii</em> motion analysis</h3>
+            <p>Studying motility and dynamics in response to drugs</p>
+          </div>
+        </div>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Quinn Research Group 2020</p>
-                </div>
-            </div>
-        </footer>
+        <!-- Slide Five -->
+        <div class="carousel-item" style="background-image: url('images/carousel/bigneuron.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Scalable Neuroimaging</h3>
+            <p>Studying neurodegeneration at tera- and peta-scales</p>
+          </div>
+        </div>
 
+        <!-- Slide Six -->
+        <div class="carousel-item" style="background-image: url('images/carousel/generative_modeling.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #000;">Generative Modeling</h3>
+            <p style="color: #000;">Building parametric generative spatiotemoporal models of biological phenomena</p>
+          </div>
+        </div>
+
+        <!-- Slide Seven -->
+        <div class="carousel-item" style="background-image: url('images/carousel/mahoutsamsara.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #000;">Open Source Development</h3>
+            <p style="color: #000;">Contributing to the Open Science ecosystem</p>
+          </div>
+        </div>
+
+        <!-- Slide Eight -->
+        <div class="carousel-item" style="background-image: url('images/carousel/precision_agriculture.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #000;">Precision Agriculture</h3>
+            <p style="color: #000;">Multi-agent multimodal monitoring of crops</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Last</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">Data Science for Public Health</h1>
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header"><i class="fas fa-camera"></i> Big Imaging</h4>
+          <div class="card-body">
+            <p class="card-text">Scalable machine learning, computer vision, and generative modeling.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header"><i class="fas fa-heartbeat"></i> Public Health</h4>
+          <div class="card-body">
+            <p class="card-text">Translational medicine, bioimaging, and disease surveillance and prediction.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header"><i class="fab fa-osi"></i> Open Science</h4>
+          <div class="card-body">
+            <p class="card-text">Active contributors to open source projects and advocates for Open Science principles and practices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Selected Projects</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#cilia"><img class="card-img-top" src="images/quick/cilia_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#cilia">Ciliary motion analysis</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#ornet"><img class="card-img-top" src="images/quick/ornet_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#ornet">Organellar networks</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#tgondii"><img class="card-img-top" src="images/quick/toxo_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#tgondii"><em>T. gondii</em> motility modeling</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#brain"><img class="card-img-top" src="images/quick/neuro_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#brain">Neuroimaging</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#orbit"><img class="card-img-top" src="images/quick/orbit_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#orbit">Biosurveillance</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="research.html#draenor"><img class="card-img-top" src="images/quick/draenor_700x400.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="research.html#draenor">Representation learning</a>
+            </h4>
+            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Group Openings</h2>
+
+        <p>We are an interdisciplinary group, primarily focused on how data science can be a tool for knowledge discovery in public health applications.</p>
+
+        <p><strong style="font-size: 18px;">Due to a combination of logistical, financial, and research commitments, I am NOT able to recruit students for Fall 2020 or Spring 2021.</strong> I sincerely apologize--there are always more interested and qualified students than I can effectively mentor at one time, and accepting more students would be a disservice to everyone.</p>
+
+        <p>When recruiting resumes, we are looking for students with backgrounds and interests in:</p>
+
+        <!--<p><strong>I am always looking for highly motivated undergraduate and graduate students</strong> with strong backgrounds in:</p>-->
+        <ul>
+            <li>statistical machine learning</li>
+            <li>computer vision</li>
+            <li>deep learning</li>
+            <li>generative models</li>
+            <li>spectral graph analytics</li>
+            <li>distributed computing</li>
+            <li>cellular biology</li>
+            <li>disease modeling</li>
+            <li>open source coding</li>
+        </ul>
+        <p>If you are interested in pursuing interdisciplinary research in my group, <a href="https://magsol.github.io/blog/2017/03/16/so-you-want-to-conduct-research-with-me/" target="_blank">please read this blog post and follow its instructions for contacting me</a>.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/qrg.png" style="float: right;" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>If you're interested in learning more about the work we do, email me!</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="mailto:squinn@cs.uga.edu?Subject=Interested in research">Email</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Quinn Research Group 2021</p>
     </div>
     <!-- /.container -->
+  </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
